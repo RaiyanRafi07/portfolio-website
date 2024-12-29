@@ -2,8 +2,12 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 text-white p-4 text-center">
-      <p>© 2024 Your Name. All rights reserved.</p>
+    <footer className="bg-navy py-6">
+      <div className="container mx-auto text-center text-cream">
+        <p className="font-sans text-lg">
+          © 2024 [Your Name]. Designed with care and creativity.
+        </p>
+      </div>
     </footer>
   );
 }
